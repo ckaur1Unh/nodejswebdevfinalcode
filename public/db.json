@@ -1,0 +1,56 @@
+{"events": [
+  {
+  "id":1,
+  "title": "Holiday Giving Tree",
+  "time": "Tuesday, December 10 at 5:00PM EST",
+  "location": "Kaplan 300",
+  "seats":30,
+  "RSVP": "No"
+
+},
+{
+  "id":2,
+  "title": "TikTok Powerpoint Night",
+  "time": "Monday, December 16 at 4:00PM EST",
+  "location": "Begami center 201",
+  "seats":45,
+  "RSVP": "Yes"
+
+},
+{
+  "id":3,
+  "title": "Food Drivee",
+  "time": "Tuesday, December 17 at 5:00PM EST",
+  "location": "Bergami 307",
+  "seats": 50,
+  "RSVP": "Yes"
+
+},
+{
+  "id":4,
+  "title": "LinkedIn Workshop",
+  "time": "Wednesday, December 18 at 4:00PM EST",
+  "location": "Online",
+  "seats":100,
+  "RSVP": "No"
+
+},
+{
+  "id":5,
+  "title": "GSC Body Meeting",
+  "time": "Wednesday, December 18 at 3:00PM EST",
+  "location": "German club",
+  "seats":30,
+  "RSVP": "Yes"
+
+},
+{
+  "id":6,
+  "title": "Theatre Club Meeting",
+  "time": "Thursday, December 19 at 6:00PM EST",
+  "location": "Kaplan 300",
+  "seats":30,
+  "RSVP": "Yes"
+}
+]
+}

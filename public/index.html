@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chanpreet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class = "nav-bar" id = "myTopnav">    
+                 <h3 id ="logo">
+                     <b>CKaur</b>
+                 </h3>
+                <ul>
+                     <li>
+                         <a href="#home">
+                            <b>Home</b> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#work">
+                            <b>My Work</b> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about">
+                            <b> About Me </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contacts">
+                            <b>Contacts</b> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+                        <i class="fa fa-bars"></i>
+                    </li>
+                    <div class="clear"></div>
+                </ul>
+            <div class="clear"></div>
+        </nav>
+        <section id="home">
+            <div class="image left">
+                <img src="https://github.com/ckaur1Unh/imageshold/blob/main/3.jpeg?raw=true" alt="">
+            </div>
+            <div class="title-right" id = "intro">
+                <h1>
+                    Hi, I'm Chanpreet Kaur and I am an automation engineer
+                </h1>
+                <p>
+                    I enrolled myself at UNH in Fall 2021. This is my last semester.
+                    I am pursuing Master's in Computer Science
+                    I will be graduating in December, 2022. Before doing masters’, I was working in automation testing where
+                    I got a chance to work with different database such as MongoDB, SQL, MYSQL.
+                    I have worked on different tools Selenium.
+                </p>
+                <button>
+                    My Jobs
+                </button>
+            </div>
+        </section>
+
+        <section id="work">
+            <div class="left">
+                <h1>
+                    What can I do?
+                </h1>
+                <button>
+                    See my jobs
+                </button>
+            </div>
+            <div class="right">
+                <ul>
+                    <li>
+                        Project 1
+                    </li>
+                    <li>
+                        Project 2
+                    </li>
+                    <li>
+                        Project 3
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="left">
+                <div class="image-container">
+                    <img src="" alt="">
+                </div>
+                <div class="right">
+                    <h2>About me</h2>
+                    <p>
+                        I enrolled myself at UNH in Fall 2021. This is my last semester.
+                        I am pursuing Master's in Computer Science
+                        I will be graduating in December, 2022. Before doing masters’, I was working in automation testing
+                        where
+                        I got a chance to work with different database such as MongoDB, SQL, MYSQL.
+                        I have worked on different tools Selenium.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews">
+            <h3><b>
+                Recommendations
+            </b>
+            </h3>
+
+            <ul>
+                <li>
+                    <div class="review-img-box">
+                        <img src="https://github.com/ckaur1Unh/imageshold/blob/main/user.png?raw=true" alt="" class="review-user-img">
+                    </div>
+                    <div class="name">
+                        Review 1
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+
+        <section id="contact-me">
+            <div class="left">
+                <form>
+                    <h3>
+                        Contact Me
+                    </h3>
+                    <div>
+                        <input type="text">
+                        <textarea></textarea>
+                        <button>
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="right">
+                <div class="img-container">
+                    <img src="https://github.com/ckaur1Unh/imageshold/blob/main/2.jpeg?raw=true" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="contacts">
+            <div class="left">
+                <ul>
+                    <li><b>
+                        Phone no:
+                    </b></li>
+                    <li>
+                        123456789
+                    </li>
+                    <li><b>Address:
+                    </b>
+                    </li>
+                    <li>
+                        330 Boston Post Road
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                    <li>
+                    <b>Email:</b> 
+                    </li>
+                    <li>
+                        ckaur1@unh.newhaven.edu
+                    </li>
+                    <li>
+                        <b>Working hours:</b>
+                    </li>
+                    <li>08:30 AM to 04:30 PM </li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+           <ul>
+            <li>
+                <img src="https://github.com/ckaur1Unh/imageshold/blob/main/icons8-github-60.png?raw=true" alt="">
+            </li>
+            <li>
+                <img src="https://github.com/ckaur1Unh/imageshold/blob/main/icons8-twitter-96.png?raw=true" alt="">
+            </li>
+            <li>
+                <img src="https://github.com/ckaur1Unh/imageshold/blob/main/icons8-linkedin-circled-96.png?raw=true" alt="">
+            </li>
+            <li>
+                <img src="https://github.com/ckaur1Unh/imageshold/blob/main/icons8-instagram-96.png?raw=true" alt="">
+            </li>
+        </ul>
+        </footer>
+    </div>
+    <script>
+        window.onscroll = function() {myFunction1()};
+        var sticky = header.offsetTop;      
+            var x = document.getElementById("myTopnav");
+        function myFunction() {
+            if (x.className === "nav-bar") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-bar";
+            }
+        }
+    function myFunction1() {
+    if (window.pageYOffset > sticky) {
+        x.classList.add("sticky");
+    } else {
+        x.classList.remove("sticky");
+    }
+    }
+        
+    </script>    
+</body>
+<style>
+    :root{
+  --main-radius : 5px;
+  --main-padding : 5px;
+  --blue: #28599e;;
+  --white: #ffffff;
+  --background: #f7c600;
+  --font-header: medium;
+  --font-text: small;
+}
+body{
+  background-color: rgb(231, 239, 241);
+}
+
+.container{
+  font-weight: 800;
+  font-size: 1em;
+  color: var(--white);
+  height:100vh;
+  display:grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "nav"
+  "home"
+  "work"
+  "about"
+  "reviews"
+  "contactme"
+  "contacts"
+  "footer";
+  gap: 0.5em;
+}   
+.nav-bar {
+  grid-area: nav;
+  padding: 20px 50px;
+  border-bottom: 1px solid black;
+  display: grid;
+  grid-template-columns: auto auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: var(--font-header);
+  color: var(--blue);
+  height: 50px;
+}
+nav ul {
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#logo{
+  font-size:25px;
+  padding-inline: 10px;
+}
+section {
+  padding: 100px 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  border-bottom: 1px solid black;
+  font-family:  Arial, Helvetica, sans-serif;;
+  font-size: var(--font-header);
+  color:  var(--blue);;
+}
+button {
+  background-color:var(--blue);;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  font-family:  Arial, Helvetica, sans-serif;;
+  font-size: medium;
+  border-radius: 12px
+}
+#home{
+  grid-area: home;
+}
+#home .image {
+  display: block;
+  margin: 0 auto;
+}
+#home img {
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 40px;
+}
+#home .left {
+  padding: 0 50px;
+}
+
+#intro{
+  font-family:  Arial, Helvetica, sans-serif;;
+  font-size: var(--font-header);
+  color:  var(--blue);;
+}
+
+#work{
+grid-area: work;
+text-align: center;
+}
+
+#reviews {
+  grid-area: reviews;
+  display: block;
+  text-align: center;
+}
+#reviews ul {
+  grid-area: section4;
+  margin: 0;
+  padding: 0;
+}
+#reviews ul li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+}
+#reviews .review-img-box {
+  text-align: center;
+}
+#reviews ul li img {
+  height: 90px;
+}
+#reviews ul li .name {
+  text-align: center;
+}
+#contact-me{
+  grid-area: contactme;
+}
+#contact-me form,
+#contact-me form input,
+#contact-me form textarea,
+#contact-me form button {
+  display: block;
+  margin-bottom: 10px;
+}
+#contact-me form input,
+#contact-me form textarea,
+#contact-me form button {
+  width: 200px;
+}
+#contact-me img {
+  width: 300px;
+  border-radius: 40px;
+}
+#contact-me .left,
+#contact-me .left form {
+  text-align: center;
+}
+#contact-me div {
+  margin: 0 auto;
+}
+#contacts ul li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+#contacts {
+  grid-area: contacts;
+  text-align: center;
+}
+footer {
+  grid-area: footer;
+  text-align: center;
+}
+footer ul li {
+  list-style: none;
+  display: inline-block;
+}
+footer ul li img {
+  height: 50px;
+}
+.nav-bar a:hover {
+  background-color:gray;
+  color: black;
+}
+
+.nav-bar .icon {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .nav-bar a:not(:first-child) {display: none;}
+  .nav-bar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav-bar.responsive {position: relative;}
+  .nav-bar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+@media only screen and (max-width:500px)
+{
+.container{
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "nav"
+  "home"
+  "work"
+  "about"
+  "reviews"
+  "contactme"
+  "contacts"
+  "footer";
+}
+section {
+padding: 100px 50px;
+display: grid;
+grid-template-rows: auto auto;
+grid-template-columns: auto;
+}
+body{
+  width:100%;
+}
+#home img {
+  width: 200px;
+}
+#contact-me img {
+  width: 200px;
+}
+.nav-bar {
+  grid-area: nav;
+  padding: 5px 20px;
+  border-bottom: 1px solid black;
+  display: grid;
+  grid-template-rows: auto auto ;
+  grid-template-rows: auto auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: var(--blue);
+  height: 80px;
+  float:right;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+.clear{
+	clear:both;
+}
+}
+</style>
+</html>
